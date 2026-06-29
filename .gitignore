@@ -1,0 +1,35 @@
+# Python / virtual env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller build output
+build/
+dist/
+*.spec
+
+# App runtime files (per-user, not for the repo)
+config.json
+voice_typing.log
+launcher.log
+sync_result.txt
+
+# Local scratch / source art (generated assets app.ico, logo.png, icon_small.png are kept)
+fhdfh.png
+__synctest.txt
+mic.ico
+
+# Personal git helper scripts (contain your email; not for distribution)
+Upload to GitHub.bat
+Fix GitHub author.bat
+Sync to GitHub.bat
+Finalize identity.bat
+Cleanup local.bat
+Release.bat
+Squash history.bat
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store

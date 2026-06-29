@@ -1,0 +1,9 @@
+SpeechRecognition>=3.10
+faster-whisper>=1.0.0
+PyAudio>=0.2.13
+keyboard>=0.13.5
+numpy>=1.24
+customtkinter>=5.2.0
+Pillow>=10.0
+language_tool_python>=2.7
+jdk4py
