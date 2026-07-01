@@ -19,7 +19,7 @@ set "ICON=%FOLDER%\app.ico"
 if not exist "%ICON%" set "ICON=%FOLDER%\mic.ico"
 
 rem --- create / refresh the "Voice Typing" shortcut on the Desktop ---
-powershell -NoProfile -ExecutionPolicy Bypass -Command "$ws=New-Object -ComObject WScript.Shell; $d=[Environment]::GetFolderPath('Desktop'); $l=$ws.CreateShortcut((Join-Path $d 'Voice Typing.lnk')); $l.TargetPath=(Join-Path $env:FOLDER 'run.bat'); $l.WorkingDirectory=$env:FOLDER; if(Test-Path $env:ICON){$l.IconLocation=$env:ICON}; $l.Description='Voice Typing - press F9 to dictate anywhere'; $l.WindowStyle=1; $l.Save(); Write-Host ('Created: ' + (Join-Path $d 'Voice Typing.lnk'))"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$ws=New-Object -ComObject WScript.Shell; $d=[Environment]::GetFolderPath('Desktop'); $l=$ws.CreateShortcut((Join-Path $d 'Voice Typing.lnk')); $l.TargetPath=(Join-Path $env:FOLDER 'run.bat'); $l.WorkingDirectory=$env:FOLDER; if(Test-Path $env:ICON){$l.IconLocation=$env:ICON}; $l.Description='Voice Typing - press Alt + Up to dictate anywhere'; $l.WindowStyle=1; $l.Save(); Write-Host ('Created: ' + (Join-Path $d 'Voice Typing.lnk'))"
 
 if errorlevel 1 (
   echo.

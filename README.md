@@ -6,7 +6,7 @@ Talk instead of type. Voice Typing turns your speech into text in any app on Win
 
 - Types into anything you'd normally type in: browsers, chat windows, code editors, search bars.
 - Runs fully offline. No account to sign up for, nothing uploaded anywhere.
-- Handles 20+ languages, or it can just auto-detect the one you're speaking.
+- Handles 20 languages, or it can just auto-detect the one you're speaking.
 - Lets you choose between speed and accuracy. The "small" model is fast, "large-v3" is the most accurate, and it'll use an NVIDIA GPU on its own if you have one.
 - Has an optional grammar and spelling fix you can switch on. That runs offline too.
 - Follows whatever microphone is set as your default, headsets included.
